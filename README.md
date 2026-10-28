@@ -1,6 +1,6 @@
 # langchain-transcriptfetch
 
-A LangChain document loader for [TranscriptFetch](https://transcriptfetch.com): transcripts of YouTube, TikTok and Instagram videos, from a single link to whole channels, playlists and searches, split server-side into embedding-sized chunks with a link to the moment each one starts.
+A LangChain document loader for [TranscriptFetch](https://transcriptfetch.com/?utm_source=github&utm_medium=integration&utm_campaign=langchain-transcriptfetch): transcripts of YouTube, TikTok and Instagram videos, from a single link to whole channels, playlists and searches, split server-side into embedding-sized chunks with a link to the moment each one starts.
 
 ```bash
 pip install -U langchain-transcriptfetch
@@ -68,7 +68,7 @@ Listings are capped at `max_videos` (default 25).
 
 ## Billing
 
-A transcript or a listing page costs 1 credit, audio transcription 1 credit per started 5 minutes of audio, and failed requests are free. Every account gets 50 free credits a month, no card needed. See [pricing](https://transcriptfetch.com/pricing).
+A transcript or a listing page costs 1 credit, audio transcription 1 credit per started 5 minutes of audio, and failed requests are free. Every account gets 50 free credits a month, no card needed. See [pricing](https://transcriptfetch.com/pricing?utm_source=github&utm_medium=integration&utm_campaign=langchain-transcriptfetch).
 
 ## License
 
